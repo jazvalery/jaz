@@ -78,6 +78,7 @@ nav ul li{
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     animation: mover-derecha-izquierda 2s 2;
+    color:red;
 }
 
 @keyframes mover-derecha-izquierda {
