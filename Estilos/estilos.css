@@ -1,0 +1,156 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;   
+    padding: 0;
+    background:radial-gradient(red,blue);
+    height: 100px;
+}
+
+
+header{
+    display:flex ;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;       
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    animation: mover-derecha-izquierda 2s 2;
+}
+
+@keyframes mover-derecha-izquierda {
+    from{
+        transform: translateX(1100px);
+    }
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 45px;
+}
+
+.link {
+    color:black;   
+}
+nav a:hover{
+    color: red;
+}
+
+h2{
+    color: black;
+}
+
+nav{
+    position: relative;
+    top: 12px;
+    right: 50px;
+    animation: mover-derecha-izquierda 2s 2;
+}
+
+@keyframes mover-derecha-izquierda {
+    from{
+        transform: translateX(1100px);
+    }
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 17px;
+    font-family:Verdana;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    animation: mover-derecha-izquierda 2s 2;
+}
+
+@keyframes mover-derecha-izquierda {
+    from{
+        transform: translateX(1100px);
+    }
+}
+.Contenedor img{
+    background:rgba(255,255,255,0.2);
+    width: 250px;
+    height: 300px;
+    margin: 45px 30px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 30px;
+    box-shadow: 1px 0px 25px rgba(255,255,255,0.2);
+    
+}
+
+.Contenedor audio{
+    position: relative;
+    right: 285px;
+    top: 30px;
+    width: 100px;
+}
+
+.Contenedor a{
+    border: 10px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.2);
+    border-radius: 50px;
+    background-color:salmon;
+    text-decoration: none;
+    list-style: none;
+    color: brown;
+    position: relative;
+    right: 290px;
+    top: 10px;
+}
+.colum-1{
+    position: relative;
+    left: 10px;
+}
+
+.colum-2{
+    position: relative;
+    left: 550px;
+    bottom: 1580px;
+}
+
+.colum-3{
+    position: relative;
+    left: 1000px;
+    bottom: 3170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
